@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>vision_bench</name>
+  <version>0.1.0</version>
+  <description>Mede fps, latência e uso de hardware da visão enquanto o launch de uma branch roda.</description>
+  <maintainer email="edrom@ufu.br">EDROM</maintainer>
+  <license>MIT</license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>soccer_vision_2d_msgs</exec_depend>
+  <exec_depend>python3-psutil</exec_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
